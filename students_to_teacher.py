@@ -52,4 +52,5 @@ def class_average(students):   #FUNCTION ACEEPT ALL STUDENT ARRAY
     return average(results)    #RETURN THE AVERAGE OF ALL STUDENT SCORES
 
 
-print (class_average(students),get_letter_grade(class_average(students))) # PRINTS THE CLASS AVERAGE OF ALL STUDENTS AND GRADE FOR THE CLASS'S AVERAGE
+print (class_average(students)
+       ,get_letter_grade(class_average(students))) # PRINTS THE CLASS AVERAGE OF ALL STUDENTS AND GRADE FOR THE CLASS'S AVERAGE
